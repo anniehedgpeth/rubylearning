@@ -1,0 +1,6 @@
+puts "We currently have #{2 + 3 + 1} sponsors."
+puts "We still need:"
+puts "#{4-2} Platinum sponsors"
+puts "#{13-3} Gold sponsors"
+puts "#{2-1} Silver sponsors"
+puts "We have #{0.03400 / 0.010300} of our sponsorship needs."

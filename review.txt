@@ -1,0 +1,73 @@
+1. Basic data types:
+string: 'Hi My Name is Annie'
+boolean: true OR false
+decimal/float: 22.32
+integer: 50
+
+2. Assign data to a Variable (a placeholder for data).
+name = "Annie"
+
+3. Perform an action on that data using Methods.
+name.length
+(This returns the length of the string. - integer 5 with "Annie")
+
+4. Pass Arguments into Methods to give it more information and make it give more detailed info.
+puts name 
+(puts is the method here, and name is the argument.) 
+
+5. Define your own methods using def method_name(arguments)
+def say_hi(name)
+  puts "Hi, #{name}!"
+end
+
+say_hi "Annie"
+
+5.5 Methods can return things, and you can save them as variables.
+
+def say_hi(name)
+  return "Hi, #{name}!"
+end
+
+greeting = say_hi "Annie"
+puts greeting 
+
+6. Group Methods into a Module
+module Greeter
+  def Greeter.say_hi(name)
+  end
+end
+
+Greeter.say_hi "Annie"
+
+7. Include code from other files with "require"
+require "./greeter.rb"
+
+Greeter.say_hi "Annie"
+
+8. run irb in command line to run each ruby line individually instead of a whole file at once
+
+9. Logic functions <- fill this in
+  if else
+  anything else?
+  
+10. Lists/Collections - Array and Hash (Dictionary)
+    Arrays: a list of anything in brackets separated by commas
+    - access them in order
+    - use numbers to get at them
+    - each thing in it is an element (not an argument)
+    - the variable within the bars acts as a loop to call on each element
+    - Ruby starts its variables in arrays at 0 not 1 (cardinal counting, not ordinal)
+    
+11. Object/Classes - inheritance
+
+12. Call Stack - 
+
+13. An if-statement creates what is called a "branch" in the code
+
+14. While Loops
+ - an "if" and a "jump" combined
+ - For a good While Loop, you need:
+    - Initialization stage
+    - Test that's valid
+    - Incrementer -  
+    -
